@@ -1,0 +1,229 @@
+ 
+.hdr{ 
+	position:relative; 
+}
+
+
+.hdr img{
+	margin: 20px auto;
+    display: table;
+    text-align: center;
+}
+
+
+.cntnt {
+    padding-top: 50px;
+    background: #fff;
+    padding-bottom: 50px;
+}
+ 
+
+.custtable{
+	background: #fff;
+}
+
+.custtable tbody {
+    border-top:0px!important;
+}
+
+.custtable tr th{
+	background-color: #bc9e6d;
+	border-bottom-color: #bc9e6d;
+	color: #fff;
+}
+
+.custtable tbody tr td{ 
+	background: #bc9e6d0f;
+}
+.custtable tbody tr td p{ 
+	
+    margin-bottom:0px;
+}
+
+.invalidheader {
+    min-height: 100vh;
+    display: flex;
+    margin: auto;
+}
+
+.invinhead {
+    background: #eee;
+    margin: auto;
+    display: flex;
+}
+
+.invinhead span{
+        padding: 10px 12px;
+    color: #ff0000;
+    text-shadow: none;
+    font-size: 20px;
+    line-height: 20px;
+    position: relative;
+    top: -1px;
+}
+
+
+.invinhead img {
+    position: relative;
+    top: 0px;
+    width: 40px;
+    left: 1px;
+}
+
+.fntsize {
+    font-weight: 500;
+    color: gray;
+    background:#fff!important;
+     }
+
+ .tdgreen {
+            color:green !important;
+            font-weight:bold
+        }
+
+         .tdred {
+            color:red !important;
+            font-weight:bold
+        }
+
+
+
+
+
+         .vehicle-details-card {
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.details-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    flex-wrap: wrap; 
+}
+
+.bgdiff {
+    background-color: #bc9e6d !important;
+    border-bottom-color: #bc9e6d !important;
+    color: #fff;
+    min-height:38px;
+}
+.valremar textarea {
+    width: 100%;
+    display: inline-table;
+    border: 0px;
+    word-wrap: break-word;
+    word-break: initial;    
+    pointer-events: none; 
+    background-color:#fbf9f6;
+    height:100%; 
+    overflow-wrap:break-word;
+}
+
+
+
+    .valremar textarea:hover, .valremar textarea:focus, .valremar textarea:visited {
+        outline:0;
+        box-shadow: none;
+    }
+
+    .details-item .label, .details-item .value, .details-item .labelara {
+    border: 1px solid #dee2e6;
+    border-top:0px;
+    padding:5px 7px;
+    }
+
+.details-item .label{
+    width: 100%; 
+    font-size:14px;    
+    margin-bottom: 0px;
+    word-wrap: break-word; 
+    background: #fff;
+}
+
+.details-item .value {
+    width: 100%; 
+    text-align: center;
+    font-size:15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    word-wrap: break-word; 
+    background: #bc9e6d0f;
+    text-decoration: none;
+    color:#000;
+    pointer-events: none;
+}
+
+.labelara {
+      width: 100%; 
+    font-size:14px;    
+    margin-bottom: 0px;
+    word-wrap: break-word; 
+    text-align:right;
+    background: #fff;
+}
+
+@media (min-width: 600px) {
+    .details-item .label {
+        width: 25%; 
+    }
+    .details-item .labelara {
+        width: 25%; 
+    }
+    .details-item .value {
+        width: 50%;
+    }
+}
+
+ 
+
+@media only screen and (max-width: 600px) {
+
+    .valremar textarea { 
+    height:100%; 
+    min-height:140px;
+    overflow-wrap:break-word;
+}
+
+
+     .details-item .label {
+        width: 25%; 
+    }
+    .details-item .labelara {
+        width: 25%; 
+    }
+    .details-item .value {
+        width: 50%;
+    }
+    
+     .vehicle-details-card {
+        max-width: 100% !important; 
+    }
+      
+
+    .cntnt .container {
+        width:100%;
+        min-width:100%;
+    }
+
+    .details-item { 
+    flex-wrap: nowrap;
+}
+
+
+} 
+
+.status .value {
+    font-weight: bold;
+}
+
+.value-arabic {
+    direction: rtl;
+    text-align: right;
+}
+
+.details-item:last-child {
+    margin-bottom: 0;
+}
+        
